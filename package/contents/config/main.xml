@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <!-- Panel (compact) -->
+    <entry name="panelMetric" type="String"><default>session</default></entry>
+    <entry name="panelStyle" type="String"><default>text</default></entry>
+    <entry name="panelShowIcon" type="Bool"><default>true</default></entry>
+    <entry name="panelShowPercent" type="Bool"><default>true</default></entry>
+    <entry name="panelShowReset" type="Bool"><default>false</default></entry>
+    <entry name="monochromeIcon" type="Bool"><default>false</default></entry>
+    <!-- Popup (expanded) -->
+    <entry name="showSession" type="Bool"><default>true</default></entry>
+    <entry name="showWeekly" type="Bool"><default>true</default></entry>
+    <entry name="showModels" type="Bool"><default>true</default></entry>
+    <entry name="showOther" type="Bool"><default>true</default></entry>
+    <entry name="showExtra" type="Bool"><default>true</default></entry>
+    <entry name="showAbsoluteTime" type="Bool"><default>true</default></entry>
+    <!-- Behaviour -->
+    <entry name="refreshMinutes" type="Int"><default>5</default><min>1</min><max>120</max></entry>
+    <entry name="warnThreshold" type="Int"><default>75</default><min>1</min><max>100</max></entry>
+    <entry name="criticalThreshold" type="Int"><default>90</default><min>1</min><max>100</max></entry>
+    <entry name="credentialsPath" type="String"><default></default></entry>
+    <entry name="mockData" type="Bool"><default>false</default></entry>
+  </group>
+</kcfg>

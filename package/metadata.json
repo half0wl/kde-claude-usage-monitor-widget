@@ -1,0 +1,23 @@
+{
+  "KPlugin": {
+    "Id": "cat.ray.kde-claude-usage-monitor-widget",
+    "Name": "Claude Usage Monitor",
+    "Description": "Your Claude plan usage and reset times, at a glance",
+    "Icon": "office-chart-ring",
+    "Category": "System Information",
+    "Authors": [
+      {
+        "Name": "Ray Chen",
+        "Email": "meow@ray.cat",
+        "Website": "https://github.com/half0wl"
+      }
+    ],
+    "Copyright": "© 2026 Ray Chen",
+    "License": "MIT",
+    "Version": "1.0.0",
+    "Website": "https://github.com/half0wl/kde-claude-usage-monitor-widget",
+    "BugReportUrl": "https://github.com/half0wl/kde-claude-usage-monitor-widget/issues"
+  },
+  "KPackageStructure": "Plasma/Applet",
+  "X-Plasma-API-Minimum-Version": "6.0"
+}

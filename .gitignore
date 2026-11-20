@@ -1,0 +1,26 @@
+# Packaged widget builds
+*.plasmoid
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# QML tooling
+*.qmlc
+*.jsc
+.qmlls.ini
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*~
+.kate-swp
+*.kate-swp
+
+# OS
+.DS_Store
+.directory
+
+# Local Claude Code settings
+.claude/settings.local.json
